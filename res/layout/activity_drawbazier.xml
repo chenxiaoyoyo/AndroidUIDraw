@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark" >
+    
+  	<com.example.androiduidraw.view.DrawView
+       android:id="@+id/drawbazier_touch_view"
+       android:layout_width="match_parent" 
+       android:layout_height="match_parent" />
+  	
+  	<RadioGroup
+       android:id="@+id/radiogroup_drawtouch_bazier"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentRight="true"
+       android:contentDescription="@string/draw_touch">
+       
+  	   <RadioButton
+          android:id="@+id/radioBtn_touchbazier"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/draw_touch_bazier"
+          android:textColor="@android:color/white" />
+  	   
+  	   <RadioButton
+          android:id="@+id/radioBtn_touchliner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/draw_touch_liner"
+          android:textColor="@android:color/white" />
+  	   
+   </RadioGroup>
+       
+</RelativeLayout>
