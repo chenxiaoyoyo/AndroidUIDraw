@@ -78,4 +78,8 @@ public class DrawView extends View {
 		mbDrawStar = true;
 		invalidate();
 	}
+	
+	public void DrawTouchBazierType(int id) {
+		invalidate();
+	}
 }

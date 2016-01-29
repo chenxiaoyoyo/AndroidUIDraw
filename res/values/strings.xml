@@ -5,4 +5,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 	<string name="drawelement_text">DrawElement</string>
+	<string name="draw_touch">Touch</string>
+	<string name="draw_touch_bazier">TouchBazier</string>
+	<string name="draw_touch_liner">TouchLiner</string>
 </resources>
